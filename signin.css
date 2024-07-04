@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bowlby+One&family=Fredoka+One&display=swap');
+
+body{box-sizing: content-box;
+    background-color:rgba(240, 248, 255, 0.645);
+    
+}
+.header {
+    background-color: rgb(244, 150, 0);
+    width: 50%;
+    height: 10%;
+    border: 10px solid bisque;
+    padding: 2px;
+    margin:auto;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+.content {
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 75%;
+    border: 5px solid black;
+    padding: 5px;
+    margin:auto;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-bottom: 2px;
+}
+.form{
+    width: max-content;
+    height: max-content;
+    margin-bottom: 2%;
+    padding: 10px 50px 30px 10px;
+
+
+
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 0.5px solid black;
+    background: #f1f1f1;
+  }
+.button{
+
+    background-color: rgb(244, 150, 0);
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: large;
+}
+#content2{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Bowlby One', cursive;
+    
+}
+.button:hover{
+    background-color: rgb(252, 118, 1);
+}

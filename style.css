@@ -1,0 +1,11 @@
+.button{
+    background-color: blueviolet;
+    border: 5px;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    box-sizing: content-box;
+}
+.button1, .button2, .button3, .button4{
+    margin: 1%;
+}
